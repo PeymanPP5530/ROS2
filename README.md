@@ -31,10 +31,9 @@ ros2 pkg create turtlesim_controle --build-type ament_python --dependencies rclp
 after creating the package, you can build it with colcon build command in the root of workspac. 
 for example: 
 ```sh   
-in 
-~/sofar_ws
 
-then: 
+cd ~/sofar_ws
+ 
 source install/local_setup.bash
 ```
 
