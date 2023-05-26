@@ -96,9 +96,9 @@ for installing arcade:    `pip3 install arcade`
 
 for test:
 ```sh
-$ python3
-$ import arcade
-$ arcade.Window(300,199)
+python3
+import arcade
+arcade.Window(300,199)
 ```
 
 **Import arcade should be the`first` import in code**
