@@ -102,3 +102,6 @@ arcade.Window(300,199)
 ```
 
 **Import arcade should be the`first` import in code**
+
+# Custom message and service
+Custom messages and services **should be in C language**
