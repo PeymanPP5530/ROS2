@@ -113,8 +113,10 @@ create a folder name `srv` and `msg`
 create a file, name it as the service type  `<service_type>.srv`
 
 add these in cmake list:
-find_package(rosidl_default_generators REQUIRED)
+
 ```sh
+find_package(rosidl_default_generators REQUIRED)
+
 rosidl_generate_interfaces(${PROJECT_NAME}
 	"srv/AddTwoInts.srv"
   DEPENDENCIES std_msgs
