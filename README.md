@@ -130,3 +130,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   <exec_depend>rosidl_default_runtime </exec_depend>
   <member_of_group>rosidl_interface_packages </member_of_group>
 ```
+**for checking if service is correct:**
+```sh
+ros2 interface show <package_name/servicename>
+```
