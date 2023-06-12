@@ -110,3 +110,4 @@ create a new pacake for Custom message and service:
 ros2 pkg create <name> --build-type ament_cmake --dependencies rclcpp std_msgs
 ```
 create a folder name `srv` and `msg`
+create a file, name it as the service type  `<service_type>.srv`
