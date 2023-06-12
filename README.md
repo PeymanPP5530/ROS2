@@ -112,7 +112,7 @@ ros2 pkg create <name> --build-type ament_cmake --dependencies rclcpp std_msgs
 create a folder name `srv` and `msg`
 create a file, name it as the service type  `<service_type>.srv`
 
-add these in cmake list:
+**add these in cmake list:**
 
 ```sh
 find_package(rosidl_default_generators REQUIRED)
@@ -122,4 +122,11 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   DEPENDENCIES std_msgs
 	"msg/Num.msg"
 )
+```
+
+**add these in package xml:**
+```sh
+  <build_depend>rosidl_default_generators </build_depend>
+  <exec_depend>rosidl_default_runtime </exec_depend>
+  <member_of_group>rosidl_interface_packages </member_of_group>
 ```
