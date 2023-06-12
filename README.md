@@ -104,4 +104,8 @@ arcade.Window(300,199)
 **Import arcade should be the`first` import in code**
 
 # Custom message and service
-Custom messages and services **should be in C language**
+Custom messages and services **should be in C++ language**
+creat a new pacake for Custom message and service:
+```sh
+ros2 pkg create <name> --build-type ament_cmake --dependencies rclcpp std_msgs
+```
