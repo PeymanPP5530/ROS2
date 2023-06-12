@@ -134,3 +134,4 @@ rosidl_generate_interfaces(${PROJECT_NAME}
 ```sh
 ros2 interface show <package_name/servicename>
 ```
+**usually reopent the VScode to find the new service by VScode**
